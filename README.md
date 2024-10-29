@@ -22,8 +22,8 @@ Remaining:  102, 108, 134
 | bright_value         | 5 (number)          | Light Intensity                         |
 | temp_current         | 6 (number)          | Environment Temp                        |
 | humidity_current     | 7 (number)          | Environment Humidity                    |
-| alarm                | # (binary_sensor)   | Issue                                   |
-| show_app_logo        | # (switch)          | App Logo                                |
+| alarm                | # (binary_sensor)   | Boolean Report Only                                   |
+| show_app_logo        | # (switch)          | Boolean Send+Report                                |
 | Ventilation          | 103 (number)        | Exhaust Fan                             |
 | water_temperature    | 104 (sensor)        | Water Temp                              |
 | water_level          | 105 (sensor)        | Water Level                             |
@@ -35,7 +35,7 @@ Remaining:  102, 108, 134
 | up_water             | 111 (binary_sensor) | Low Water                               |
 | weekcycle            | 112 (sensor)        | Growcycle Week                          |
 | pump_water           | 113 (switch)        | Water Pump                              |
-| replace_skin         | # (?)               | wtf                                     |
+| replace_skin         | # (?)               | Enum Send+Report                                     |
 | input_air_flow       | 115 (number)        | Intake Fan                              |
 | turn_on_the_light    | 116 (number)        | Light On Time                           |
 | turn_off_light       | 117 (number)        | Light Off Time                          |
