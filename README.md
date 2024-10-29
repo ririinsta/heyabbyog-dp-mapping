@@ -22,8 +22,8 @@ Remaining:  102, 108, 134
 | bright_value         | 5 (number)          | Light Intensity                         |
 | temp_current         | 6 (number)          | Environment Temp                        |
 | humidity_current     | 7 (number)          | Environment Humidity                    |
-| alarm                | # (binary_sensor)   | Boolean Report Only                                   |
-| show_app_logo        | # (switch)          | Boolean Send+Report                                |
+| alarm                | # (binary_sensor)   | Issue                                   |
+| show_app_logo        | # (switch)          | App Logo                                |
 | Ventilation          | 103 (number)        | Exhaust Fan                             |
 | water_temperature    | 104 (sensor)        | Water Temp                              |
 | water_level          | 105 (sensor)        | Water Level                             |
@@ -35,7 +35,7 @@ Remaining:  102, 108, 134
 | up_water             | 111 (binary_sensor) | Low Water                               |
 | weekcycle            | 112 (sensor)        | Growcycle Week                          |
 | pump_water           | 113 (switch)        | Water Pump                              |
-| replace_skin         | # (?)               | Enum Send+Report                                     |
+| replace_skin         | # (?)               | wtf                                     |
 | input_air_flow       | 115 (number)        | Intake Fan                              |
 | turn_on_the_light    | 116 (number)        | Light On Time                           |
 | turn_off_light       | 117 (number)        | Light Off Time                          |
@@ -50,8 +50,8 @@ Remaining:  102, 108, 134
 | water_pump_fault     | # (_)               |                                         |
 | gas_pump_fault       | # (_)               |                                         |
 | sensor_height_fault  | # (_)               |                                         |
-| on5v                 | 101 (number)        |                                         |
-| off5v                | 129 (number)        |                                         |
+| on5v                 | # (_)               |                                         |
+| off5v                | 129 (number)        | USB Power 0 = On 1 = Off                |
 | pump_water_finished  | # (_)               |                                         |
 | fan_enable           | 131 (Switch)        |                                         |
 | light_all_onoff      | 133 (sensor)        | None                                    |
@@ -64,5 +64,11 @@ Remaining:  102, 108, 134
 | time_stamp           | 140 (sensor)        | None                                    |
 | silent_mode          | 141 (sensor)        | None                                    |
 | auto_lock            | 142 (switch)        | Locks Door                              |
-| dpid_test_mag2       | 143 (switch)        | None                                    |
-| dpid_test_mag1       | 144 (switch)        | None                                    |
+| dpid_test_mag2       | # (switch)          | None                                    |
+| dpid_test_mag1       | # (switch)          | None                                    |
+
+| **ID** | **Description** |
+| ------ | --------------- |
+| 131    | Turns off box?  |
+| 136    | Stays On        |
+
