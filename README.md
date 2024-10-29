@@ -54,13 +54,13 @@ Though the Abby's app stops working if you don't remove the box you can still us
 | fan_enable             | # (_)             | _                                          |
 | light_all_onoff        | # (_)             | _                                          |
 | timetofeedabby         | # (_)             | _                                          |
-| app_rewrite_sn         | # (_)             | _                                          |
-| speaker_on_off_mode    | # (_)             | _                                          |
+| app_rewrite_sn         | 135 (_)             | None                                          |
+| speaker_on_off_mode    | 136 (_)             | None                                          |
 | job_to_do_show_pic     | # (_)             | _                                          |
-| new_job_show_picture   | # (_)             | _                                          |
-| celebrate_welcome      | # (_)             | _                                          |
+| new_job_show_picture   | 137 (Switch)             | Show message on screen (You still have a job to complete!)                                          |
+| celebrate_welcome      | 138 (Switch)             | Show message on screen (You have a new job to do!)                                          |
 | time_stamp             | # (_)             | _                                          |
 | silent_mode            | # (_)             | _                                          |
-| auto_lock              | # (_)             | _                                          |
-| dpid_test_mag2         | # (_)             | _                                          |
-| dpid_test_mag1         | # (_)             | _                                          |
+| auto_lock              | 142 (Switch)             | Lock Door                                          |
+| dpid_test_mag2         | 143 (_)             | none                                          |
+| dpid_test_mag1         | 144 (_)             | none                                          |
