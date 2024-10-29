@@ -29,7 +29,7 @@ Though the Abby's app stops working if you don't remove the box you can still us
 | height                 | 107 (sensor)      | Plant Height (0.1 scale + cm [i think])    |
 | Add_fertilizer         | 108 (switch)      | Fertilizer Door (Older OG models)          |
 | human_detection        | 109 (binary sensor) | Human Present                             |
-| o2                     | # (switch)      | Not Sure                                   |
+| o2                     | # (switch)      | Show O2 bubble on dial                                   |
 | up_water               | 111 (binary_sensor) | Low Water                                 |
 | weekcycle              | 112 (sensor)      | Growcycle Week                             |
 | pump_water             | 113 (switch)      | Water Pump                                 |
